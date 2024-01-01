@@ -181,7 +181,7 @@ nav {
     border-radius: 9999px;
     font-weight: 500;
     border: solid 2px rgb(226,232, 240);
-    font-size: 200px;
+    font-size: 100%;
 }
 
 .landing__description--btn {
