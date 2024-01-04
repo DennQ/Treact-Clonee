@@ -333,8 +333,13 @@ nav {
 
 /* QUALITY */
 
-.quality__row {
+#quality {
+    height: 626px;
+}
+
+.flex__row {
     display: flex;
+    align-items: center;
 }
 
 .quality__description {
@@ -344,10 +349,17 @@ nav {
     max-width: 576px;
     margin-right: 64px;
     flex-direction: column;
+    padding: 32px 0;
 }
 
 .quality__img--wrapper {
     width: 50%;
+    flex-shrink: 0;
+}
+
+.quality__img {
+    border-radius: 4px;
+    border: 1px solid rgb(226, 232, 240);
 }
 
 .quality__btn {
@@ -357,4 +369,18 @@ nav {
     border: none;
     margin-top: 32px;
     width: fit-content; /* can change in future if i can find a solution so that it works on firefox */
+}
+
+/* STEPS */
+
+#steps {
+    height: 732px;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__description {
+    width: 50%;
 }
