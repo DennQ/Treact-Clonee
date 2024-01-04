@@ -333,5 +333,28 @@ nav {
 
 /* QUALITY */
 
+.quality__row {
+    display: flex;
+}
 
+.quality__description {
+    display: flex;
+    text-align: left;
+    width: 50%;
+    max-width: 576px;
+    margin-right: 64px;
+    flex-direction: column;
+}
 
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin-top: 32px;
+    width: fit-content; /* can change in future if i can find a solution so that it works on firefox */
+}
