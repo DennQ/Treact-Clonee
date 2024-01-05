@@ -427,3 +427,42 @@ nav {
 
 
 /* VALUES */
+
+.values__img--wrapper {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
+}
+
+.values__description {
+    margin-right: 64px;
+    width: 50%;
+    padding: 32px 0;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.values__box--wrapper {
+    flex-direction: row;
+}
+
+.values__box--one {
+    margin: 32px 32px 0 0;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__box--two {
+    margin-top: 32px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__title--wrapper {
+    display: flex;
+    align-items: center;
+}
