@@ -619,6 +619,11 @@ svg {
     border: none;
 }
 
+.plan__button:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
+    transform: translateX(1px) translateY(-1px);
+}
+
 .plan__business {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     color: rgb(247, 250, 252);
@@ -640,6 +645,11 @@ svg {
 .plan__button--business {
     background: rgb(247, 250, 252);
     color: rgb(100, 21, 255);
+}
+
+.plan__button--business:hover {
+    background-color: rgb(226 232 240);
+    color: rgb(70 15 179);
 }
 
 .plan__button--red {
