@@ -536,7 +536,7 @@ svg {
     position: relative;
 }
 
-.plan__highlight--green {
+.plan__highlight {
     position: absolute;
     left: 0;
     right: 0;
@@ -544,7 +544,14 @@ svg {
     height: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.green {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.red {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__title {
@@ -600,7 +607,7 @@ svg {
 
 .plan__button {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-    width: 70%;
+    width: 100%;
     border-radius: 9999px;
     padding: 16px 32px;
     font-size: 14px;
@@ -610,4 +617,31 @@ svg {
     transition: all 300ms;
     cursor: pointer;
     border: none;
+}
+
+.plan__business {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    color: rgb(247, 250, 252);
+}
+
+.business__white {
+    color: rgb(247, 250, 252);
+}
+
+.business__feature--color {
+   color: rgb(226 232 240);
+}
+
+.plan__description--business {
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.plan__button--business {
+    background: rgb(247, 250, 252);
+    color: rgb(100, 21, 255);
+}
+
+.plan__button--red {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
