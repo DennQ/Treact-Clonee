@@ -514,8 +514,11 @@ svg {
 
 .plans {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .plan {
@@ -529,7 +532,7 @@ svg {
     padding: 8px 32px  0 32px;
     text-align: center;
     color: rgb(26 32 44);
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06); /* subject to change cause idk what the values r */
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06); /* subject to change cause idk what the values are and this is copy paste from the actual site */
     position: relative;
 }
 
@@ -573,10 +576,10 @@ svg {
     margin: 0 -32px;
     display: flex;
     flex-direction: column;
-    border: 0px solid rgb(225, 232, 240);
-    border-top-width: 2px;
-    border-bottom-width: 2px;
+    border-top: 2px solid rgb(225, 232, 240);
+    border-bottom: 2px solid rgb(225, 232, 240);
     padding: 32px;
+    text-align: center;
 }
 
 .plan__description--main {
