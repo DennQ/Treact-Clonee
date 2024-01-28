@@ -860,3 +860,35 @@ svg {
   border-radius: 9999px;
   border: 1px solid rgb(160 174 192);
 }
+
+/* FOOTER */
+
+.footer__container {
+  padding: 96px 32px;
+  margin: 0 -32px -32px -32px;
+  background-color: rgb(100 21 255);
+  color: rgb(247 250 252);
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  margin-top: 48px;
+  text-align: left;
+  align-items: center;
+
+}
+
+.footer__link--title {
+  font-weight: 700;
+  font-size: 16px;
+}
