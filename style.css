@@ -543,7 +543,7 @@ svg {
   border-top-right-radius: 8px;
 }
 
-.green {
+.plan__green {
   background: linear-gradient(
     115deg,
     rgb(56, 178, 172) 0%,
@@ -551,7 +551,7 @@ svg {
   );
 }
 
-.red {
+.plan__red {
   background: linear-gradient(
     115deg,
     rgb(245, 101, 101) 0%,
@@ -677,3 +677,101 @@ svg {
 
 /* TESTIMONIALS */
 
+.testimonials__img--wrapper {
+  width: 50%;
+}
+
+.testimonials__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonials__description {
+  width: 50%;
+  padding-left: 64px;
+}
+
+.testimonial {
+  text-align: left;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.stars {
+  display: inline;
+  fill: rgb(246 173 85); 
+}
+
+.testimonial__title {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36 62 99);
+}
+
+.testimonial__para {
+  margin-bottom: 40px;
+  margin-top: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(74 85 104);
+}
+
+.testimonial__person--wrapper {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial__person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person__img--wrapper {
+  height: 80px;
+  width: 80px;
+}
+
+.person__img {
+  border-radius: 9999px;
+}
+
+.person__title {
+  text-align: left;
+  margin-left: 24px;
+}
+
+.person__title--name {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36 62 99);
+}
+
+.person__title--description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgb(124 139 161);
+}
+
+.testimonial__arrows {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin: 0 12px;
+  border-radius: 9999px;
+  background-color: rgb(237 242 247);
+  padding: 12px;
+  color: rgb(100, 21, 225);
+}
+
+.divider {
+  margin: 12px 0;
+  border: 0px solid rgb(226 232 240);
+  border-right-width: 1px;
+  height: 25%;
+}
