@@ -805,3 +805,58 @@ svg {
 .faq__arrow {
   margin-left: 8px;
 }
+
+/* AD */
+
+.ad__box--wrapper {
+  border-radius: 8px;
+  padding: 96px 0px;
+  background-color: rgb(100 21 255);
+  display: flex;
+  justify-content: center;
+}
+
+.ad__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1024px;
+  padding: 0 32px;
+}
+
+.ad__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(247 250 252);
+  text-align: left;
+  width: 50%;
+}
+
+.ad__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  max-width: 512px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+.ad__button--one {
+  background-color: rgb(245 101 101);
+  color: rgb(247 250 252);
+  padding: 20px 40px;
+  margin-right: 32px;
+  width: auto;
+  border-radius: 9999px;
+  border: 1px transparent;
+}
+
+.ad__button--two {
+  color: rgb(247 250 252);
+  padding: 20px 40px;
+  width: auto;
+  border-radius: 9999px;
+  border: 1px solid rgb(160 174 192);
+}
