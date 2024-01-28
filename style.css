@@ -775,3 +775,33 @@ svg {
   border-right-width: 1px;
   height: 25%;
 }
+
+/* FAQ */
+
+.faq__boxes {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: rgb(237 242 247);
+  color: rgb(45 55 72);
+  width: 896px;
+}
+
+.faq__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.faq__arrow {
+  margin-left: 8px;
+}
