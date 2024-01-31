@@ -867,7 +867,7 @@ svg {
   padding: 96px 32px;
   margin: 0 -32px -32px -32px;
   background-color: rgb(100 21 255);
-  color: rgb(247 250 252);
+  color: rgb(247 250 252); 
 }
 
 .footer__links {
@@ -889,13 +889,64 @@ svg {
   margin: 24px 0 0;
   display: flex;
   flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .footer__link--item {
-  margin: 4.3px 0;
+  display: inline-block; 
+  margin-top: 12px;
+  padding-bottom: 4px;
+  color: white;
   border-bottom: 2px transparent solid;
-  transition: 300ms ease;
-  font-size: 14px;
+}
+
+
+.footer__divider {
+  margin: 64px 0;
+  width: 100%;
+  border: 0px solid rgb(116 44 255);
+  border-bottom-width: 2px;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__info--logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo--wrapper {
+  width: 32px;
+}
+
+.footer__logo--title {
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.footer__info--copyright {
+  font-size: 16px;
+  text-align: center;
   font-weight: 500;
-  padding-bottom: 2px;
+  color: rgb(203 213 224);
+}
+
+.footer__logo--list {
+  display: flex;
+}
+
+.footer__logo--item {
+  display: flex;
+  margin-right: 16px;
+  border-radius: 9999px;
+  background-color: rgb(247 250 252);
+  padding: 8px;
+  color: rgb(26 32 44);
 }
