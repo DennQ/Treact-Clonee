@@ -762,11 +762,19 @@ svg {
 }
 
 .arrow {
+  display: flex;
+  align-items: center;
   margin: 0 12px;
   border-radius: 9999px;
   background-color: rgb(237 242 247);
   padding: 12px;
   color: rgb(100, 21, 225);
+  transition: all 300ms;
+}
+
+.arrow:hover {
+  background-color: rgb(226 232 240);
+  color: rgb(80 17 204);
 }
 
 .divider {
@@ -795,6 +803,12 @@ svg {
   background-color: rgb(237 242 247);
   color: rgb(45 55 72);
   width: 896px;
+  transition: all 300ms;
+}
+
+.faq__box:hover {
+  background-color: rgb(226 232 240);
+  color: rgb(26 32 44);
 }
 
 .faq__title {
@@ -851,6 +865,12 @@ svg {
   width: auto;
   border-radius: 9999px;
   border: 1px transparent;
+  transition: all 300ms;
+}
+
+.ad__button--one:hover {
+  background-color: rgb(229 62 62);
+  color: rgb(237 242 247);
 }
 
 .ad__button--two {
@@ -859,6 +879,12 @@ svg {
   width: auto;
   border-radius: 9999px;
   border: 1px solid rgb(160 174 192);
+  transition: all 300ms;
+}
+
+.ad__button--two {
+  background-color: rgb(247 250 252);
+  color: rgb(100 21 255);
 }
 
 /* FOOTER */
@@ -899,6 +925,11 @@ svg {
   padding-bottom: 4px;
   color: white;
   border-bottom: 2px transparent solid;
+  transition: all 300ms;
+}
+
+.footer__link--item:hover {
+  border-color: rgb(247 250 252); 
 }
 
 
@@ -950,3 +981,6 @@ svg {
   padding: 8px;
   color: rgb(26 32 44);
 }
+
+
+/* RESPONSIVE */
